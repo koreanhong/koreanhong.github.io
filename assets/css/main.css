@@ -4727,17 +4727,18 @@ sub, sup {
 	}
 }
 
-.tech {
-	margin: 10px
-}
+/* .tech { */
+/* 	margin: 10px */
+/* } */
 
 .user {
 	text-align: center;
-	font-size: 60px;
+/* 	font-size: 60px;	 */
 /* 	display: flex; */
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between
+	justify-content: space-between;
+	display: inline;
 }
 
 .user p {
@@ -4747,7 +4748,7 @@ sub, sup {
 @media only screen and (min-width:550px) {
 	.user {
 		flex-wrap: nowrap;
-		font-size: 75px
+/* 		font-size: 75px */
 	}
 }
 
@@ -4756,16 +4757,44 @@ sub, sup {
 	margin: 5px auto
 }
 
-/* 추가한 css */
+/* 추가한 css /////////////////////////////////////////////////////////*/
 .user-details h1 {
 	text-align: center;
 }
 .techImg { 
 	width: 70px;
 	height: 70px;
+	border-radius: 15px;
+	border : 1px black;
+	box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
+	margin-right: 10px;
+	
+	
+}
+.tech_box{
+	border: 1px solid black;
+}
+.tech_table{
+	display: inline;
+}
+.tech_table td{
+	font-family: inherit;
+	font-weight: 700;
+}
+.myIntro{
+	font-family: inherit;
+	font-weight: 700;
+}
+.user-projects{
+	border: 1px black solid;
+}
+.projectsImg{
+	height: 430px;
+}
+.projectsImg:hover {opacity: 0.5}{
 }
 
-/* 추가한 css */
+/* 추가한 css /////////////////////////////////////////////////////////*/
 
 #projects {
 	display: flex;
@@ -4788,7 +4817,7 @@ sub, sup {
 
 .user-projects img {
 	max-width: 100%;
-	height: auto;
+/* 	height: auto; */
 	border-radius: 5px
 }
 
@@ -4808,14 +4837,31 @@ sub, sup {
 @media only screen and (min-width:550px) {
 	.contents {
 		margin-left: 0;
-		width: 48%
+		width: 50%;
+	}
+	.contents h3{
+		text-align: center;
+		font-size: xx-large;
+		margin: 2px;
+	}
+	.contentsTitle{
+		text-align: center;
+		font-weight: 700;
+		font-size: large;
+		margin: 0;
+	}
+	.contentsWrite{
+	 margin: 0;
+	}
+	.contentsPeriod{
+		text-align: center;	
 	}
 	.contents-right {
 		margin-top: -5%
 	}
 	.contents-right, .images-right {
 		float: right;
-		width: 48%
+		width: 50%;
 	}
 	.images-right img {
 		float: right

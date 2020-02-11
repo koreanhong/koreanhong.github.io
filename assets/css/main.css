@@ -4784,6 +4784,7 @@ sub, sup {
 .myIntro{
 	font-family: inherit;
 	font-weight: 700;
+	line-height: 200%
 }
 .user-projects{
 	border: 1px black solid;
@@ -4793,7 +4794,25 @@ sub, sup {
 }
 .projectsImg:hover {opacity: 0.5}{
 }
-
+.myIntro_first{
+	color: indianred;
+	font-size: large;
+}
+.myIntro_point{
+	color: orange;
+	font-size: large;
+}
+.myIntro_point2{
+	color:indianred;
+	font-size: large;
+}
+.myIntro_point3{
+	color: indianred;
+	font-size: large;
+}
+.mini_title{
+	font-size: large;
+}
 /* 추가한 css /////////////////////////////////////////////////////////*/
 
 #projects {
@@ -4849,6 +4868,7 @@ sub, sup {
 		font-weight: 700;
 		font-size: large;
 		margin: 0;
+		color: black;
 	}
 	.contentsWrite{
 	 margin: 0;
